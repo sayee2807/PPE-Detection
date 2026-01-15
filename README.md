@@ -29,20 +29,20 @@ compliance with green bounding boxes and violations with red bounding boxes.
 
 ## PROJECT STRUCTURE
 
-The Videos directory contains sample construction site videos used for testing and demonstration of the PPE detection system.
+`Videos` directory contains sample construction site videos used for testing and demonstration of the PPE detection system.
 
-The Model folder stores the custom-trained YOLOv8 model file (best.pt) used for PPE compliance inference.
+`model` folder stores the custom-trained YOLOv8 model file (best.pt) used for PPE compliance inference.
 
-The requirements.txt file lists all Python dependencies required to set up and run the project environment.
+`requirements.txt` file lists all Python dependencies required to set up and run the project environment.
 
-The run.py script serves as the main entry point for executing the real-time PPE compliance detection pipeline.
+`run.py` script serves as the main entry point for executing the real-time PPE compliance detection pipeline.
 
 --------------------------------------------------
 
 HOW TO RUN
 
 Run on video file:
-   python main.py
+   ```python main.py```
 
 --------------------------------------------------
 
