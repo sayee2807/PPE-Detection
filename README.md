@@ -48,5 +48,5 @@ Run on video file:
 
 PERFORMANCE
 
-Accuracy: 63% mAP@0.5
+Accuracy: 80% mAP@0.5
 Inference Speed: ~17–20 FPS on CPU
